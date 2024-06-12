@@ -1,5 +1,5 @@
 print("การหาพื้นที่สามเหลี่ยม")
-base = input("ฐาน ")
-hight = input("สูง ")
+base = input("ฐาน: ")
+hight = input("สูง:")
 ans = 1/2 * int(base) * int(hight)
 print("คำตอบ "+ str(ans))
