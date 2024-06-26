@@ -3,4 +3,4 @@ c = 0
 for i in range(a):
     b = int(input("ใส่ตัวเลข: "))
     c+=b
-    print("All: " + str(c))
+    print("All %d: " % (i+1) + str(c))
